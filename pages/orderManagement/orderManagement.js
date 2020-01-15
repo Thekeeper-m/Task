@@ -3,7 +3,7 @@
  * @Date: 2020-01-15 19:48:31
  * @description: 
  * @Version: 1.0
- * @LastEditTime : 2020-01-15 20:52:34
+ * @LastEditTime : 2020-01-15 22:12:12
  * @LastEditors  : Please set LastEditors
  */
 // pages/orderManagement/orderManagement.js
@@ -16,7 +16,9 @@ Page({
     array: ['全部', '生产中', '采购中', '待排产', '已完成'],
     index: 0,
     showStartDate: '7月1日',
-    showEndDate: '9月30日'
+    showEndDate: '9月30日',
+    orderNum: 1590,
+    remindNum: 5,
   },
 
   // 点击判断选择生产状态

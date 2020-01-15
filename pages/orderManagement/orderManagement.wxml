@@ -1,7 +1,8 @@
 <!--pages/orderManagement/orderManagement.wxml-->
+<!-- 顶部背景图片 -->
 <view class="background">
     <view class="section">
-        <picker mode="selector" range="{{array}}"  value="{{index}}" bindchange="bindPickerChange">
+        <picker mode="selector" range="{{array}}"  value="{{index}}" bindchange="bindPickerChange" class="select">
             <view class="picker">
                 生产状态：{{array[index]}}
                 <image src="../../static/images/灰色尖角.png"></image>
@@ -9,7 +10,7 @@
         </picker>
         <view class="pickerDate">
             <view class="picker">
-                {{showStartDate}}
+                {{showStartDate}}-
             </view>
             <view class="picker">
                 {{showEndDate}}
@@ -17,7 +18,23 @@
             <image src="../../static/images/灰色尖角.png"></image>
         </view>
         <view class="search">
-
+            <image src="../../static/images/白色搜索.png"></image>
+            <view class="searchtext">搜索</view>
         </view>
+    </view>
+</view>
+<!-- 相对定位状态栏 -->
+<view class="hotmsg">
+    <view class="monthOrder">
+        <image src="">
+            
+        </image>
+        <view class="monthText">本月订单：{{orderNum}}</view>
+    </view>
+    <view class="reminder">
+        <image src="">
+            
+        </image>
+        <view class="remindText">催单：{{remindNum}}次</view>
     </view>
 </view>
