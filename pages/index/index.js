@@ -4,7 +4,6 @@ const app = getApp()
 
 Page({
   data: {
-    imageBase64: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1579084977184&di=afdbb8e0e90d4903f2fc966f26620b61&imgtype=jpg&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D1502676338%2C3772310299%26fm%3D214%26gp%3D0.jpg'
   },
   //事件处理函数
   bindViewTap: function() {

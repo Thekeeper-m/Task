@@ -1,2 +1,23 @@
 <!--pages/orderManagement/orderManagement.wxml-->
+<view class="background">
+    <view class="section">
+        <picker mode="selector" range="{{array}}"  value="{{index}}" bindchange="bindPickerChange">
+            <view class="picker">
+                生产状态：{{array[index]}}
+                <image src="../../static/images/灰色尖角.png"></image>
+            </view>
+        </picker>
+        <view class="pickerDate">
+            <view class="picker">
+                {{showStartDate}}
+            </view>
+            <view class="picker">
+                {{showEndDate}}
+            </view>
+            <image src="../../static/images/灰色尖角.png"></image>
+        </view>
+        <view class="search">
 
+        </view>
+    </view>
+</view>

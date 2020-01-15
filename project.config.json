@@ -52,6 +52,13 @@
 					"id": -1,
 					"name": "pages/orderManagement/orderManagement",
 					"pathName": "pages/orderManagement/orderManagement",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/login/login",
+					"pathName": "pages/login/login",
 					"scene": null
 				}
 			]

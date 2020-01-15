@@ -1,30 +1,19 @@
 /*
  * @Author: seven.Yi
- * @Date: 2020-01-15 19:48:31
+ * @Date: 2020-01-15 19:58:42
  * @description: 
  * @Version: 1.0
- * @LastEditTime : 2020-01-15 20:52:34
- * @LastEditors  : Please set LastEditors
+ * @LastEditTime: 2020-01-15 19:59:28
+ * @LastEditors: 
  */
-// pages/orderManagement/orderManagement.js
+// pages/login/login.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    array: ['全部', '生产中', '采购中', '待排产', '已完成'],
-    index: 0,
-    showStartDate: '7月1日',
-    showEndDate: '9月30日'
-  },
-
-  // 点击判断选择生产状态
-  bindPickerChange: function(e) {
-    console.log('picker发送选择改变, 携带值为', e.detail.value)
-    this.setData({
-      index: e.detail.value
-    })
+    imageBase64: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1579084977184&di=afdbb8e0e90d4903f2fc966f26620b61&imgtype=jpg&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D1502676338%2C3772310299%26fm%3D214%26gp%3D0.jpg'
   },
 
   /**
