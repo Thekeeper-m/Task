@@ -1,0 +1,64 @@
+/**index.wxss**/
+page {
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+}
+.wrap {
+  display: flex;
+  width: 100%;
+  background-color: white;
+  height: 100rpx;
+}
+
+.fillpart {
+  width: 5%;
+  height: 100rpx;
+}
+
+.container {
+  width: 95%;
+  height: 99rpx;
+  border-bottom:1rpx solid #f5f5f5 ;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  width: 180rpx;
+  font-size: 28rpx;
+}
+
+.loginbar {
+  width: 450rpx;
+  font-size: 28rpx;
+}
+
+.code {
+  width: auto;
+  font-size: 28rpx;
+}
+
+.codeimage {
+  width: 200rpx;
+  height: 80rpx;
+}
+
+.button {
+  width: 100%;
+  height: 90rpx;
+  display: flex;
+  justify-content: center;
+  margin-top: 80rpx;
+}
+
+.loginbutton {
+  width: 530rpx;
+  height: 85rpx;
+  background-color: #378CFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 70rpx;
+  color: white;
+}
