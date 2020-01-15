@@ -18,7 +18,8 @@
     <view class="container">
         <view class="text">验证码</view>
         <input type="text" class="code" placeholder="请输入验证码"/>
-        <view bindtap="refrash"><image class="codeimage" src="data:image/png;base64, {{imageBase64}}"></image></view>
+        <!-- <view bindtap="refrash"><image class="codeimage" src="data:image/png;base64, {{imageBase64}}"></image></view> -->
+        <view bindtap="refrash"><image class="codeimage" src="{{imageBase64}}" ></image></view>
     </view>
 </view>
 <view class="button">
