@@ -26,15 +26,37 @@
 <!-- 相对定位状态栏 -->
 <view class="hotmsg">
     <view class="monthOrder">
-        <image src="">
-            
-        </image>
-        <view class="monthText">本月订单：{{orderNum}}</view>
+        <image src="../../static/images/订单.png"></image>
+        <view class="monthText">本月订单：{{orderAmount}}</view>
     </view>
     <view class="reminder">
-        <image src="">
-            
-        </image>
+        <image src="../../static/images/提示.png"></image>
         <view class="remindText">催单：{{remindNum}}次</view>
+        <view class="look">查看</view>
+    </view>
+</view>
+
+<!-- 订单内容部分 -->
+<view class="orderwrap" wx:for="{{order}}" wx:key="*this">
+    <view class="orderBox">
+        <view class="numList">
+            <view class="orderNum">{{item.orderNum}}</view>
+            <view class="leaveMsg">留言</view>
+        </view>
+        <view class="timeList">
+            {{item.orderTime}}
+        </view>
+        <view class="company">
+            客户名称：{{item.companyName}}
+        </view>
+        <view class="remarks">
+            <view class="orderRemark">
+                订单备注：{{item.remark}}
+            </view>
+            <view class="remarkInfo">详情 ></view>
+        </view>
+    </view>
+    <view class="ordercontainer" wx:for="{{item.orderDetail}}" wx:key="*this">
+
     </view>
 </view>

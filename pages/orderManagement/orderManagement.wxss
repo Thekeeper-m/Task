@@ -78,4 +78,129 @@ page {
     top: -7%;
     margin: 0 auto;
     border-radius: 25rpx;
+    display: flex;
+    align-items: center;
+}
+
+.monthOrder {
+    display: flex;
+    align-items: center;
+    width: 46%;
+    padding-left: 4%;
+    border-right: 1rpx solid #f5f5f5;
+    font-size: 30rpx;
+}
+
+.reminder {
+    display: flex;
+    align-items: center;
+    width: 46%;
+    padding-left: 4%;
+    font-size: 30rpx;
+}
+
+.monthOrder image {
+    width: 50rpx;
+    height: 50rpx;
+    margin-right: 15rpx;
+}
+
+.reminder image {
+    width: 50rpx;
+    height: 50rpx;
+    margin-right: 15rpx;
+}
+
+.look {
+    width: 90rpx;
+    height: 37rpx;
+    border: 1rpx solid gray;
+    font-size: 25rpx;
+    margin-left: 15rpx;
+    border-radius: 25rpx;
+    text-align: center;
+}
+
+.orderwrap {
+    width: 700rpx;
+    /* height: auto; */
+    height: 700rpx;
+    background-color: white;
+    margin: 30rpx auto;
+    border-radius: 10rpx;
+    transform: translateY(-100rpx);
+}
+
+.orderBox {
+    margin: 0rpx 0rpx 0rpx 3%;
+    width: 97%;
+    height: auto;
+}
+
+.numList {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 28rpx;
+    font-size: 25rpx;
+}
+
+.orderNum {
+    margin-left: 5rpx;
+    color: darkgray;
+    font-size: 26rpx
+}
+
+.leaveMsg {
+    width: 90rpx;
+    height: 37rpx;
+    border: 1rpx solid #b1b1b1;
+    font-size: 25rpx;
+    margin-left: 15rpx;
+    border-radius: 25rpx;
+    text-align: center;
+    margin-right: 25rpx;
+}
+
+.timeList {
+    margin-left: 5rpx;
+    color: darkgray;
+    font-size:26rpx;
+    margin-top: 10rpx;
+}
+
+.company {
+    font-size: 27rpx;
+    margin-top: 15rpx;
+    margin-left: 5rpx;
+    color: #515151;
+}
+
+.remarks{
+    width: auto;
+    margin-top: 15rpx;
+    margin-left: 5rpx;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20rpx;
+    /* border-bottom: 1rpx solid #f5f5f5; */
+}
+
+.orderRemark {
+    font-size: 27rpx;
+    color: #515151;
+    width: 82%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.remarkInfo {
+    font-size: 27rpx;
+    color: #515151;
+    margin-right: 25rpx;
+}
+
+.ordercontainer {
+
 }

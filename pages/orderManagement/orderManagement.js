@@ -17,8 +17,25 @@ Page({
     index: 0,
     showStartDate: '7月1日',
     showEndDate: '9月30日',
-    orderNum: 1590,
+    orderAmount: 1590,
     remindNum: 5,
+    order:[
+      {
+        orderNum: 201907014213,
+        orderTime: "2019-05-20 09:38:08",
+        companyName: "十一路分公司",
+        remark: "首先新建popupwindow目录，然后右键，新建Component，结构如下图所示：",
+        orderDetail:{}
+      },
+      {
+        orderNum: 201907014214,
+        orderTime: "2019-05-20 10:38:08",
+        companyName: "大妈路分公司",
+        remark: "首先新建popupwindow目录",
+        orderDetail:{}
+      }
+    ],
+
   },
 
   // 点击判断选择生产状态
