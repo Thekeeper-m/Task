@@ -1,6 +1,7 @@
 <!--pages/orderSearch/orderSearch.wxml-->
 <view class="wrapBlue">
     <view class="search">
-        <input type="text" class="searchInput"  placeholder="搜索产品名称、型号" placeholder-style="color:white;"/>
+        <image src="../../static/images/search.png"></image>
+        <input type="text" class="searchInput"  placeholder="搜索产品名称、型号" placeholder-style="color:white; font-size:26rpx"/>
     </view>
 </view>
