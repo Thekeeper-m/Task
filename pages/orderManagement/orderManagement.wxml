@@ -5,7 +5,7 @@
         <picker mode="selector" range="{{array}}"  value="{{index}}" bindchange="bindPickerChange" class="select">
             <view class="picker">
                 生产状态：{{array[index]}}
-                <image src="../../static/images/灰色尖角.png"></image>
+                <image src="../../static/images/grayangle.png"></image>
             </view>
         </picker>
         <view class="pickerDate">
@@ -15,10 +15,10 @@
             <view class="picker">
                 {{showEndDate}}
             </view>
-            <image src="../../static/images/灰色尖角.png"></image>
+            <image src="../../static/images/grayangle.png"></image>
         </view>
         <view class="search">
-            <image src="../../static/images/白色搜索.png"></image>
+            <image src="../../static/images/search.png"></image>
             <view class="searchtext">搜索</view>
         </view>
     </view>
@@ -26,11 +26,11 @@
 <!-- 相对定位状态栏 -->
 <view class="hotmsg">
     <view class="monthOrder">
-        <image src="../../static/images/订单.png"></image>
+        <image src="../../static/images/orders.png"></image>
         <view class="monthText">本月订单：{{orderAmount}}</view>
     </view>
     <view class="reminder">
-        <image src="../../static/images/提示.png"></image>
+        <image src="../../static/images/tip.png"></image>
         <view class="remindText">催单：{{remindNum}}次</view>
         <view class="look">查看</view>
     </view>
@@ -53,10 +53,31 @@
             <view class="orderRemark">
                 订单备注：{{item.remark}}
             </view>
-            <view class="remarkInfo">详情 ></view>
+            <!-- <view class="remarkInfo">详情 ></view> -->
         </view>
     </view>
     <view class="ordercontainer" wx:for="{{item.orderDetail}}" wx:key="*this">
-
+        <view class="productInfo">
+            <image src="{{item.smallPicture}}"></image>
+            <view class="productContainer">
+                <view class="contentwrap" >
+                    <view style="font-size:28rpx">
+                        {{item.productName}}
+                    </view>
+                    <view class="urge">
+                        {{item.isUrge}}
+                    </view>
+                </view>
+                <view class="contentwrap distance">
+                    <view class="or-font">
+                        型号：{{item.productModel}}
+                    </view>
+                    <view style="font-size:28rpx">{{item.status}}</view>
+                </view>
+                <text class="or-font" decode="true">
+                    订单数：{{item.productNum}}&nbsp;&nbsp;排产数：{{item.planNum}}&nbsp;&nbsp;已发货：{{item.sendProduct}}
+                </text>
+            </view>
+        </view>
     </view>
 </view>

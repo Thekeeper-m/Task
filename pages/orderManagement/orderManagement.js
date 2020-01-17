@@ -25,7 +25,28 @@ Page({
         orderTime: "2019-05-20 09:38:08",
         companyName: "十一路分公司",
         remark: "首先新建popupwindow目录，然后右键，新建Component，结构如下图所示：",
-        orderDetail:{}
+        orderDetail:[
+          {
+            smallPicture: 'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3450925599,3126545716&fm=26&gp=0.jpg',
+            productName:'百达翡丽',
+            productModel: 'Y0107',
+            productNum: 110,
+            planNum:20,
+            sendProduct: 20,
+            status: '生产中',
+            isUrge: '催单'
+          },
+          {
+            smallPicture: 'https://himg.china.cn/0/4_72_230694_486_427.jpg',
+            productName:'江诗丹顿',
+            productModel: 'W0811',
+            productNum: 10,
+            planNum:320,
+            sendProduct: 240,
+            status: '待排产',
+            isUrge: '已催单'
+          }
+        ]
       },
       {
         orderNum: 201907014214,

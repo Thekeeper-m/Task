@@ -1,0 +1,23 @@
+/* pages/orderSearch/orderSearch.wxss */
+.wrapBlue {
+    width: 100%;
+    height: 90rpx;
+    background-color: #4684FF;
+}
+
+.searchInput {
+    width: 100%;
+    font-size: 28rpx;
+    color: white;
+}
+
+.search {
+    width: 95%;
+    margin: 0rpx auto;
+    height: 60rpx;
+    background-color: #7EA9FF;
+    border-radius: 30rpx;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
