@@ -66,6 +66,13 @@
 					"id": -1,
 					"name": "pages/orderSearch/orderSearch",
 					"pathName": "pages/orderSearch/orderSearch",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/remindOrder/remindOrder",
+					"pathName": "pages/remindOrder/remindOrder",
 					"scene": null
 				}
 			]

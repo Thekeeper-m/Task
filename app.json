@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/orderManagement/orderManagement",
     "pages/login/login",
-    "pages/orderSearch/orderSearch"
+    "pages/orderSearch/orderSearch",
+    "pages/remindOrder/remindOrder"
   ],
   "window": {
     "backgroundTextStyle": "light",
