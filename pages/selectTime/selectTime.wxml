@@ -1,0 +1,9 @@
+<!--pages/selectTime/selectTime.wxml-->
+<view class="warp">
+    <picker  mode="date"  value="{{date}}" start="" bindchange="" bindcancel="">
+        
+    </picker>
+</view>
+<view class="warp">
+
+</view>

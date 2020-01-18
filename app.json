@@ -5,7 +5,9 @@
     "pages/orderManagement/orderManagement",
     "pages/login/login",
     "pages/orderSearch/orderSearch",
-    "pages/remindOrder/remindOrder"
+    "pages/remindOrder/remindOrder",
+    "pages/selectTime/selectTime",
+    "pages/messageHouse/messageHouse"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,36 +1,11 @@
-/*
- * @Author: seven.Yi
- * @Date: 2020-01-18 13:05:06
- * @description: 
- * @Version: 1.0
- * @LastEditTime : 2020-01-18 18:01:22
- * @LastEditors  : Please set LastEditors
- */
-// pages/remindOrder/remindOrder.js
+// pages/selectTime/selectTime.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    isOrder: true,
-    remindOrder: [
-      {
-        orderId:11915721,
-        productName: 'XXX音乐盒',
-        remindTime: '2020-10-10 09:11'
-      },
-      {
-        orderId:1191321,
-        productName: 'XXX发条',
-        remindTime: '2020-10-12 09:11'
-      },
-      {
-        orderId:11915721,
-        productName: 'XXX零件',
-        remindTime: '2020-10-10 12:31'
-      }
-    ]
+
   },
 
   /**

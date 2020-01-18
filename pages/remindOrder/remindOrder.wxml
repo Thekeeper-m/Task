@@ -1,2 +1,23 @@
 <!--pages/remindOrder/remindOrder.wxml-->
-<text>pages/remindOrder/remindOrder.wxml</text>
+<view class="get-remind" wx:if="{{isOrder}}">
+    <view class="remind-order" wx:for="{{remindOrder}}">
+        <view class="order-box">
+            <view class="wrap">
+                <view class="title">
+                    <view class="titleStyle">订单号</view>
+                    <view class="titleStyle">产品名称</view>
+                    <view class="titleStyle">催单时间</view>
+                </view>
+                <view class="content">
+                    <view class="contentStyle">{{item.orderId}}</view>
+                    <view class="contentStyle">{{item.productName}}</view>
+                    <view class="contentStyle">{{item.remindTime}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="no-content" wx:else>
+    <image class="" src="../../static/images/icon_zwcd@2x.png"></image>
+    <view class="show-text">暂无催单</view>
+</view>

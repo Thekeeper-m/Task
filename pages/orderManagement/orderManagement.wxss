@@ -20,10 +20,11 @@ page {
 }
 
 .picker image {
-    width: 23rpx;
-    height: 20rpx;
+    width: 18rpx;
+    height: 13rpx;
     margin-left: 15rpx;
-    font-size: 28rpx
+    font-size: 28rpx;
+    margin-top: 5rpx;
 }
 
 .section {
@@ -38,10 +39,11 @@ page {
 }
 
 .pickerDate image {
-    width: 23rpx;
-    height: 20rpx;
+    width: 18rpx;
+    height: 13rpx;
     margin-left: 15rpx;
-    font-size: 28rpx
+    font-size: 28rpx;
+    margin-top: 5rpx;
 }
 
 .search {
@@ -60,8 +62,8 @@ page {
 }
 
 .search image {
-    width: 45rpx;
-    height: 45rpx;
+    width: 35rpx;
+    height: 35rpx;
     margin-right: 15rpx;
 }
 
@@ -100,21 +102,21 @@ page {
 }
 
 .monthOrder image {
-    width: 50rpx;
-    height: 50rpx;
+    width: 60rpx;
+    height: 60rpx;
     margin-right: 15rpx;
 }
 
 .reminder image {
-    width: 50rpx;
-    height: 50rpx;
+    width: 60rpx;
+    height: 60rpx;
     margin-right: 15rpx;
 }
 
 .look {
     width: 90rpx;
-    height: 37rpx;
-    border: 1rpx solid gray;
+    height: 38rpx;
+    border: 1rpx solid #969696;
     font-size: 25rpx;
     margin-left: 15rpx;
     border-radius: 25rpx;
@@ -154,8 +156,8 @@ page {
 
 .leaveMsg {
     width: 90rpx;
-    height: 37rpx;
-    border: 1rpx solid #b1b1b1;
+    height: 38rpx;
+    border: 1rpx solid #969696;
     font-size: 25rpx;
     margin-left: 15rpx;
     border-radius: 25rpx;
