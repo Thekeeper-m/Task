@@ -1,0 +1,34 @@
+/* pages/messageList/messageList.wxss */
+page {
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+
+.msgTime {
+    font-size: 26rpx;
+    color:#8B888B;
+    margin-bottom: 10rpx;
+}
+
+.msgContent {
+    font-size: 28;
+}
+
+.wrap {
+    width: 100%;
+    height: 500rpx;
+    background-color: white;
+    margin-top: 15rpx;
+}
+
+.msgContainer {
+    padding: 25rpx;
+    height: 100%;
+}
+
+.imageShow {
+    display: flex;
+    align-items: center;
+    padding: 1rpx 30rpx;
+}

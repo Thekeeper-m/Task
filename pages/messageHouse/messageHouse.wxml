@@ -1,2 +1,14 @@
 <!--pages/messageHouse/messageHouse.wxml-->
-
+<view class="wrap">
+    <view class="cu-form-group textHeight">
+        <textarea bindinput="textareaAInput" maxlength="-1" placeholder="请输入留言内容"></textarea>
+    </view>
+    <view class="cu-form-group">
+        <view class="grid">
+            <image src="../../static/images/common_img_addimg.png" mode="aspectFill" bindtap="ChooseImage"></image>
+        </view>
+    </view>
+</view>
+<view class="button">
+    <view class="uploadbutton">提交</view>
+</view>

@@ -1,18 +1,59 @@
 // pages/selectTime/selectTime.js
+var util = require('../../utils/util.js')
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    startDate: '2020-01-13',
+    endDate: '2020-01-01',
+    nowDate: ''
+  },
 
+  /**
+   * 时间选择功能 
+   */
+
+  bindStartDateChange: function(e) {
+    console.log('picker发送选择改变,携带值为',e.detail.value)
+    this.setData({
+      startDate: e.detail.value
+    })
+  },
+
+  bindEndDateChange: function(e) {
+    console.log('picker发送选择改变,携带值为',e.detail.value)
+    this.setData({
+      endDate: e.detail.value
+    })
+  },
+
+  /**
+   * 清空时间选择 
+   */
+  deleteStartTime: function(e) {
+    var date = util.formatDate(new Date());
+    this.setData({
+      startDate: date
+    })
+  },
+
+  deleteEndTime: function(e) {
+    var date = util.formatDate(new Date());
+    this.setData({
+      endDate: date
+    })
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    var time = util.formatDate(new Date());
+    this.setData({
+      nowDate: time
+    })
   },
 
   /**

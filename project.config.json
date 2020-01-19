@@ -87,6 +87,14 @@
 					"id": -1,
 					"name": "pages/messageHouse/messageHouse",
 					"pathName": "pages/messageHouse/messageHouse",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/messageList/messageList",
+					"pathName": "pages/messageList/messageList",
+					"query": "",
 					"scene": null
 				}
 			]

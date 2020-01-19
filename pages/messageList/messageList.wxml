@@ -1,0 +1,10 @@
+<!--pages/messageList/messageList.wxml-->
+<view class="wrap" wx:for="{{message}}">
+    <view class="msgContainer">
+        <view class="msgTime">{{item.time}}</view>
+        <view class="msgContent">{{item.content}}</view>
+        <view class="imageShow" wx:for="{{item.imageList}}">
+
+        </view>
+    </view>
+</view>

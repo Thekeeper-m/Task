@@ -1,9 +1,25 @@
 <!--pages/selectTime/selectTime.wxml-->
 <view class="warp">
-    <picker  mode="date"  value="{{date}}" start="" bindchange="" bindcancel="">
-        
-    </picker>
+    <view class="section">
+        <picker class="picker-section" mode="date" start="2015-09-01" end="{{nowDate}}" value="{{startDate}}" bindchange="bindStartDateChange">
+            <view class="picker">
+                {{startDate}}
+            </view>
+        </picker>
+        <image class="" src="../../static/images/icon_del_sc@2x.png" bindtap="deleteStartTime"></image>
+    </view>
 </view>
-<view class="warp">
 
+<view class="warp">
+    <view class="section">
+        <picker class="picker-section" mode="date" start="2015-09-01" end="{{nowDate}}" value="{{endDate}}" bindchange="bindEndDateChange">
+            <view class="picker">
+                {{endDate}}
+            </view>
+        </picker>
+        <image class="" src="../../static/images/icon_del_sc@2x.png" bindtap="deleteEndTime"></image>
+    </view>
+</view>
+<view class="button">
+    <view class="confirmbutton">确定</view>
 </view>

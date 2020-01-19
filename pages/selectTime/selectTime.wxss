@@ -11,3 +11,53 @@ page {
     background-color: white;
     margin-top: 20rpx;
 }
+
+.picker {
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-bottom: 1rpx solid #5A8CE2;
+    color:#5A8CE2;
+    margin: 0rpx auto;
+    padding-bottom: 15rpx;
+}
+
+
+.section image {
+    width: 35rpx;
+    height: 35rpx;
+}
+
+.section {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    /* padding: 40rpx 0rpx 0rpx 20rpx; */
+    transform: translate(5%, 50%);
+}
+
+.picker-section {
+    width: 650rpx;
+}
+
+.button {
+    width: 100%;
+    height: 90rpx;
+    display: flex;
+    justify-content: center;
+    margin-top: 80rpx;
+  }
+  
+  .confirmbutton {
+    width: 550rpx;
+    height: 85rpx;
+    background-color: #378CFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70rpx;
+    color: white;
+  }
