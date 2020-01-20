@@ -3,8 +3,18 @@
     <view class="msgContainer">
         <view class="msgTime">{{item.time}}</view>
         <view class="msgContent">{{item.content}}</view>
-        <view class="imageShow" wx:for="{{item.imageList}}">
-
+        <view class="imageShow">
+        <view class="bg-img" wx:for="{{item.imageList}}">
+            <image class="" src="{{item.imageUrl}}" mode="aspectFill" ></image>
+        </view>
         </view>
     </view>
 </view>
+<view class="bottom-button">
+    <image  src="../../static/images/common_ly_add.png"></image>
+    <view class="blue">新增留言</view>
+</view>
+
+
+
+

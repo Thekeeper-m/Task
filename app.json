@@ -1,15 +1,35 @@
 {
   "pages": [
-    "pages/index/index",
+    "pages/login/login",
     "pages/logs/logs",
     "pages/orderManagement/orderManagement",
-    "pages/login/login",
     "pages/orderSearch/orderSearch",
     "pages/remindOrder/remindOrder",
     "pages/selectTime/selectTime",
     "pages/messageHouse/messageHouse",
-    "pages/messageList/messageList"
+    "pages/messageList/messageList",
+    "pages/mine/mine"
   ],
+  "tabBar" : {
+    "color": "#BABFC5",
+    "selectedColor": "#4D90FB",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/orderManagement/orderManagement",
+        "text": "订单管理",
+        "iconPath": "./static/images/tab_my_nor.png",
+        "selectedIconPath": "./static/images/tab_my_pre.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "个人中心",
+        "iconPath": "./static/images/tab_order_nor.png",
+        "selectedIconPath": "./static/images/tab_order_pre.png"
+      }
+    ]
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
