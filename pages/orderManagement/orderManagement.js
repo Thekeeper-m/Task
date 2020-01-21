@@ -7,6 +7,7 @@
  * @LastEditors  : Please set LastEditors
  */
 // pages/orderManagement/orderManagement.js
+var util = require('../../utils/util.js')
 Page({
 
   /**
@@ -15,8 +16,10 @@ Page({
   data: {
     array: ['全部', '生产中', '采购中', '待排产', '已完成'],
     index: 0,
-    showStartDate: '7月1日',
+    showStartDate: '01月01日',
     showEndDate: '9月30日',
+    StartDate: '',
+    EndDate: '',
     orderAmount: 1590,
     remindNum: 5,
     order:[
@@ -67,11 +70,43 @@ Page({
     })
   },
 
+  // 跳转时间选择页面
+  toSelect: function() {
+    var _self = this;
+    wx.setStorage({
+      key: 'timeStart',
+      data: _self.StartDate,
+    });
+    wx.setStorage({
+      key: 'timeEnd',
+      data: _self.EndDate,
+    });
+    wx.navigateTo({
+      url: '../selectTime/selectTime',
+      success: (result)=>{
+        console.log('跳转成功')
+      },
+    });
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    var _self = this;
 
+    var time = util.formatDate(new Date());
+    var array = time.split('-');
+    var nowTime = array[1] + '月' + array[2] + '日'
+    _self.setData({
+      showEndDate: nowTime
+    })
+    _self.setData({
+      StartDate: array[0] + '-01-01'
+    })
+    _self.setData({
+      EndDate: time
+    })
   },
 
   /**

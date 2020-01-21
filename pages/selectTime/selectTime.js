@@ -46,6 +46,11 @@ Page({
     })
   },
 
+  // 取出缓存数据
+  getDate: function(name) {
+    return wx.getStorageSync(name)
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */
@@ -53,7 +58,9 @@ Page({
     var time = util.formatDate(new Date());
     this.setData({
       nowDate: time
-    })
+    });
+    var startDate = this.getDate('timeStart');
+    var endDate = this.getDate('timeEnd')
   },
 
   /**

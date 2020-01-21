@@ -8,7 +8,7 @@
                 <image src="../../static/images/common_icon_sjx.png"></image>
             </view>
         </picker>
-        <view class="pickerDate">
+        <view class="pickerDate" bindtap="toSelect">
             <view class="picker">
                 {{showStartDate}}-
             </view>
