@@ -8,7 +8,9 @@
     "pages/selectTime/selectTime",
     "pages/messageHouse/messageHouse",
     "pages/messageList/messageList",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/personalInformation/personalInformation",
+    "pages/changePassword/changePassword"
   ],
   "tabBar" : {
     "color": "#BABFC5",

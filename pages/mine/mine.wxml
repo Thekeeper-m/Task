@@ -13,4 +13,6 @@
 
 <view class="changePassword">
     <image src="../../static/images/my_icon_qj.png" ></image>
+    <view style="font-size:28rpx; width:75%">修改密码</view>
+    <view class="arrows"></view>
 </view>

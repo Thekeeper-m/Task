@@ -51,7 +51,7 @@ page {
     margin-top: 80rpx;
   }
   
-  .uploadbutton {
+.uploadbutton {
     width: 550rpx;
     height: 85rpx;
     background-color: #378CFF;

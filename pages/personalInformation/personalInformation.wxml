@@ -1,0 +1,15 @@
+<!--pages/personalInformation/personalInformation.wxml-->
+<view class="head-infor">
+    <image src="../../static/images/CE0BC78D535F846189E4C8ABC024F956.jpg" ></image>
+    <view class="name">王杰</view>
+</view>
+<view class="wrap">
+    <view class="department">
+        <view class="title">部门</view>
+        <view class="content">业务部</view>
+    </view>
+    <view class="post">
+        <view class="title">职务</view>
+        <view class="content">经理</view>
+    </view>
+</view>
